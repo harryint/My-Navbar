@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+.nav-center{
+    /* margin: 8px; */
+    display: flex;
+    background-color: whitesmoke;
+    box-shadow: 4px 10px 8px rgba(161, 161, 161, 0.423);
+    box-sizing: border-box;
+    /* border-radius: 8px; */
+    font-size: 1.7rem;
+    align-items: center;  
+    padding: 0 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+h4{
+    font-size: 2rem;
+    color: rgba(0, 140, 255, 0.664);
+    padding-left: 14px;
+}
+.nav-links{
+    margin-left: 70%;
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    width: 45vw;
+    /* height: 12vw;  */
+    /* margin-top: 10%; */
+    margin-left: 28vw;
+    /* background-color: aquamarine; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    margin-top: 8vw;
+    border-radius: 8px;
+    padding: 2vw 3vw;
+    font-size: 2.4rem;
+    color: beige;
+}
+span{
+    color: aqua;
+}
+.btn-hero{
+    margin: 4vw 0 0 40%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 8px;
+    padding: 10px 4vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    box-shadow: 0 0 4px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-hero:hover{
+    background-color: rgb(44, 44, 44);
+    transition: 1s;
+    color: aliceblue;
+}

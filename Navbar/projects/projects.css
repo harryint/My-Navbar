@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: aliceblue;
+    /* display: flex; */
+}
+/* .container{ */
+    /*  */
+/* } */
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px;
+}
+a{
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    /* margin: 20px; */
+    padding: 20px;
+}
+li:hover{
+    background-color: rgb(123, 123, 123);
+    box-shadow: 0 6px 4px rgba(165, 165, 165, 0.815);
+}
+a:hover{    
+    color: aqua;
+}
